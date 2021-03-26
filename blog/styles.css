@@ -42,19 +42,20 @@ img{
 
 .row{
     display:flex;
+    justify-content: space-between;
     margin: 1em 0;
 }
 
 .col-1{
-    width: 25%;
+    width: 20%;
 }
 
 .col-2{
-    width: 50%;
+    width: 45%;
 }
 
 .col-3{
-    width: 75%;
+    width: 70%;
 }
 
 .col-bg{
