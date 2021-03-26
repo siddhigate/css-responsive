@@ -1,5 +1,29 @@
-/* Layout*/
+:root{
+    --dark-background: #312614;
+    --chrome-color:#B7832F;
+    --gray-color: #707070;
+    --white-color:#FFF;
+}
 
+
+body{
+    font-size: 1.25rem;
+    color: var(--gray-color);
+    margin: 0;
+}
+
+/* Typography */
+h1{
+    font-size: 3rem;
+    color: #212614;
+    text-align: center;
+}
+
+h1 span{
+    color: #b7832f;
+}
+
+/* Layout*/
 img{
     max-width: 100%;
     
@@ -10,4 +34,8 @@ img{
     max-width: 980px;
     margin: 0 auto;
     
+}
+
+.row{
+    display:flex;
 }
