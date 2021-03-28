@@ -17,6 +17,12 @@ img{
     display: block;
 }
 
+p{
+    line-height: 1.5em;
+    color: #707070;
+    font-size: 1em;
+}
+
 /* **************
     TYPOGRAPHY
    ************** */
@@ -251,12 +257,21 @@ nav a:focus
     .article-recent-secondary{
         width: 25%;
     }
-    /* .article-image{
+
+     .article-image{
+        width:100%;
+        min-height: 200px;
+        object-fit: cover;
+        /* object-position: left; */
+    } 
+
+    .left-image{
+        
         width:100%;
         min-height: 250px;
         object-fit: cover;
-        /* object-position: left; */
-    /* }  */
+        object-position: left;  
+    }
 
     .article-featured{
         display: flex;
@@ -277,4 +292,8 @@ nav a:focus
     border: 20px solid #efefef;
     margin-bottom:2em;
     padding:1em;
+}
+
+footer p{
+    color:white;
 }
