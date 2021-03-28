@@ -20,8 +20,8 @@ h1{
 .sub-title{
     color: #1792d2;
     font-weight: 700;
-    font-size: .75rem;
-    margin:0;
+    font-size: .85em;
+    margin-top:0.5em;
 }
 
 /*
@@ -79,4 +79,22 @@ nav a:focus
 
 .current-page:hover{
     color: #707070;
+}
+
+@media (max-width: 675px){
+    .container-nav{
+        flex-direction: column;
+    }
+
+    header{
+        text-align: center;
+    }
+
+    nav ul{
+        flex-direction: column;
+    }
+
+    nav li{
+        margin: .5em 0;
+    }
 }
