@@ -13,7 +13,16 @@ body{
 h1{
     font-family: 'Lora', serif;
     font-weight: 400;
+    color: #143774;
+    margin:0;
 }   
+
+.sub-title{
+    color: #1792d2;
+    font-weight: 700;
+    font-size: .75rem;
+    margin:0;
+}
 
 header{
     text-align: center;
