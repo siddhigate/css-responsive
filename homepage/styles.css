@@ -194,3 +194,14 @@ nav a:focus
         width: 20%;
     }
 }
+
+@media (min-width: 550px){
+    
+    .article-recent-main{
+        margin-top: -2.75em;
+    }
+
+    .article-info{
+        text-align: right;
+    }
+}
