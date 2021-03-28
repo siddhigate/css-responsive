@@ -1,28 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+/* font-family: 'Ubuntu', sans-serif; */
 
 body{
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
+    font-size: 1.125rem;
+    font-weight: 300;
 }
 
 /* **************
     TYPOGRAPHY
    ************** */
-
-h1{
+h1,
+h2,
+h3{
+    
     font-family: 'Lora', serif;
     font-weight: 400;
     color: #143774;
+}
+h1{
+    font-size: 2rem;
     margin:0;
 }   
 
+a{
+    color: #1792d2;
+}
+
+a:hover,
+a:focus{
+    color: #143774;
+}
+
+strong{
+    font-weight: 700;
+}
+
+
+/* logo subtitle */
 .sub-title{
     color: #1792d2;
     font-weight: 700;
     font-size: .85em;
     margin-top:0.5em;
 }
+
+.article-title{
+    font-size: 1.5rem;
+}
+
+.article-read-more,
+.article-info{
+    font-size: .875rem;
+}
+
+.article-read-more{
+    color:#1792d2;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.article-read-more:hover,
+.article-read-more:focus{
+    color:#143774;
+    text-decoration: underline;
+}
+
 
 /*------------------------------
     LAYOUT
