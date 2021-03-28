@@ -193,15 +193,22 @@ nav a:focus
     aside{
         width: 20%;
     }
-}
 
-@media (min-width: 550px){
-    
+    .article-recent{
+        flex-direction: row;
+        justify-content: space-between;
+    }
     .article-recent-main{
-        margin-top: -2.75em;
+        width: 68%;
+    }
+    .article-recent-secondary{
+        width: 30%;
+    }
+    .article-image{
+        width:100%;
+        min-height: 250px;
+        object-fit: cover;
+        /* object-position: left; */
     }
 
-    .article-info{
-        text-align: right;
-    }
 }
